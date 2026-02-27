@@ -5,3 +5,10 @@ def show_calendar():
 
 if __name__ == "__main__":
     show_calendar()
+
+from datetime import datetime
+
+def show_time():
+    now = datetime.now()
+    print("\n --- Current Time --- ")
+    print("Current time:", now.strftime("%Y-%m-%d %H:%M:%S"))
