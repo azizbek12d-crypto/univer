@@ -5,3 +5,8 @@ def show_calendar():
 
 if __name__ == "__main__":
     show_calendar()
+
+def feature_author():
+    print("\n --- Author --- ")
+    print("Name: aziz")
+    print("Email:")
