@@ -10,3 +10,11 @@ def feature_author():
     print("\n --- Author --- ")
     print("Name: aziz")
     print("Email:")
+
+from datetime import datetime
+
+def show_time():
+    now = datetime.now()
+    print("\n --- Current Time --- ")
+    print("Current time:", now.strftime("%Y-%m-%d %H:%M:%S"))
+
